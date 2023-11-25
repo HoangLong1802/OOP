@@ -1,0 +1,33 @@
+class khái niệm
+
+Đối tượng trong code (object)
+
+thuộc tích(4 thuộc tính)
+
+1. tính đa hình (polymorphsim )
+- các object có thể thực hiện cùng 1 phương thức nhưng nhiều cách khác nhau.
+
+2. tính kết thừa (Inheritance )
+- cho phép tạo ra các lớp con và lớp con sẽ nhận toàn bộ thuộc tính của lớp cha phương thức của lớp con không ảnh hưởng tới lớp cha.
+
+3. tính đóng gói (Encapsulation )
+- che giấu thông tin không gây ảnh hưởng tới các đối tượng khác
+
+4. tính trừu tượng (Abstraction)
+- thuộc tính có thể bỏ qua hay không chú ý đến một số khía cạnh của thông tin mà nó đang trực tiếp làm việc lên
+
+ví dụ
+
+class 'con mèo'
+
+object 'con mèo tên Đậu'
+
+tính đa hình: Con đậu có thể ngủ ngữa người vài bửa nhưng có thể ngủ up vài bửa
+
+tính kế thừa: con mèo tạo ra 1 lớp con và những con của con mèo có toàn bộ các thuộc tính như đen, xấu,... 
+và kế thừa 1 số phương thức giống cha như quậy, ngủ ngáo,...
+
+tính đóng gói: con mèo có thể che giấu thông tin bản thân
+
+tính trừu tượng
+- có thể đậu ngầu nhưng đôi khi phương thức có thể bỏ qua thuộc tính đó.
